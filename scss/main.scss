@@ -119,6 +119,13 @@ p {
   margin-bottom: 30px;
 }
 
+.p-large {
+  color: #000000;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .p-list {
   color: #808080;
   line-height: 2;
@@ -183,6 +190,8 @@ ol {
 
 ul {
   margin: 20px 0;
+  color: #808080;
+  font-size: 0.9rem;
 }
 
 .options {
