@@ -5,12 +5,6 @@
   margin: 0;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-}
-
 .wrapper {
   min-height: 100%;
   min-width: 100%;
@@ -18,7 +12,7 @@ body {
 }
 
 .index-wrapper {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 header {
@@ -52,9 +46,8 @@ nav {
   justify-content: center;
   width: 100%;
   margin-right: 25px;
-
   p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #ffffff;
     margin: 0;
     text-transform: uppercase;
@@ -120,11 +113,15 @@ p {
   margin-bottom: 30px;
 }
 
-.p-large {
-  color: #000000;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  font-weight: 600;
+td {
+  color: #808080;
+  font-size: 0.8rem;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+  display: inline;
 }
 
 .p-list {
@@ -135,7 +132,7 @@ p {
 
 .header-img {
   width: 100%;
-  margin-top: 38px;
+  margin-top: 20px;
 }
 .header-img-main {
   width: 100%;
@@ -190,8 +187,15 @@ ol {
 
 ul {
   margin: 20px 0;
-  color: #808080;
-  font-size: 0.9rem;
+}
+
+.icon-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
 
 .options {
@@ -210,16 +214,8 @@ ul {
   height: 100px;
 }
 
-.far {
-  font-size: 60px;
-}
-
-.icon-container {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.product-details-img {
+  width: 100%;
 }
 
 .product-name {
@@ -255,13 +251,6 @@ table {
   margin-top: 100px;
 }
 
-iframe {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  margin-top: 38px;
-}
-
 footer {
   width: 100%;
   margin: 5px;
@@ -280,14 +269,12 @@ footer {
 
 /* image slider */
 
-/* image slider */
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-top: 38px;
+  margin-top: 25px;
 }
 
 /* Hide the images by default */
@@ -384,6 +371,84 @@ footer {
   }
 }
 
-.product-details-img {
-  width: 100%;
+/* responsive */
+
+// @media only screen and (min-width: 768px) {
+//   .h2-categories {
+//     font-size: 1.4rem;
+//   }
+// }
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    width: 900px;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .responsive {
+    min-height: 100%;
+    min-width: 100%;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+  }
+
+  nav {
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+  }
+
+  .icon-container {
+    font-size: 3.8;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .h2-categories {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1.6rem;
+  }
+
+  h6 {
+    font-size: 1.5rem;
+  }
+
+  .name p {
+    font-size: 1.7rem;
+  }
+
+  .header-img {
+    margin-top: 47px;
+  }
+
+  .prev {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
 }
