@@ -168,12 +168,11 @@ main {
 }
 
 .h2-categories {
-  text-align: center;
   background-color: #000000;
   padding: 5px;
   width: 100%;
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 0;
 }
 
