@@ -194,6 +194,11 @@ nav {
   }
 }
 
+.p-large {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
 h1,
 h2,
 h4 {
@@ -329,6 +334,10 @@ ol {
 
 ul {
   margin: 20px 0;
+}
+
+ul li {
+  text-transform: lowercase;
 }
 
 .options {
