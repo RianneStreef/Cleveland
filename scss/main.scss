@@ -172,8 +172,8 @@ nav {
   top: 0;
 
   a {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   a:visited {
     color: #ffffff;
@@ -338,6 +338,7 @@ ul {
 
 ul li {
   text-transform: lowercase;
+  font-size: 0.8rem;
 }
 
 .options {
@@ -402,6 +403,12 @@ table {
 
 .price {
   margin-top: 40px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
 }
 
 footer {
@@ -554,6 +561,10 @@ footer {
     max-width: 200px;
     pointer-events: auto;
   }
+}
+
+.putter-specs li {
+  text-transform: none;
 }
 
 @media only screen and (min-width: 768px) {
