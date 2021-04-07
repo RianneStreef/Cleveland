@@ -1,7 +1,12 @@
 console.log("service worker running");
 
-var cacheName = "/cleveland-v3";
-var contentToCache = ["../index.html", "../categories.html"];
+var cacheName = "/cleveland-v2.4";
+var contentToCache = [];
+
+caches.keys().then(function (names) {
+  for (let name of names) caches.delete(name);
+  console.log("caches deleted");
+});
 
 self.addEventListener("install", (e) => {
   console.log("[Service Worker] Install");
