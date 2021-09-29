@@ -1,6 +1,6 @@
 console.log("service worker running");
 
-var cacheName = "/cleveland-v3.3";
+var cacheName = "/cleveland-v3.4";
 var contentToCache = [];
 
 caches.keys().then(function (names) {
